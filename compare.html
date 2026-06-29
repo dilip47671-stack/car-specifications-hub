@@ -1,0 +1,178 @@
+<h1>🚗 All Cars Comparison</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <script>
+if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.classList.add("dark-mode");
+}
+</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+    <div class="spinner"></div>
+    <h2>Loading...</h2>
+</div>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="index.html">All Cars</a>
+    <a href="suv.html">SUV Cars</a>
+    <a href="luxury.html">Luxury Cars</a>
+    <a href="compare.html" class="active">Compare Cars</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About Us</a>
+</nav>
+<button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+<table border="1" width="100%">
+<tr>
+    <th>Car</th>
+    <th>Mileage</th>
+    <th>Power</th>
+    <th>Torque</th>
+    <th>Fuel</th>
+    <th>Price</th>
+    <th>top speed</th>
+    <th>engine</th>
+</tr>
+
+<tr>
+    <td>Tata Nexon</td>
+    <td>24 km/l</td>
+    <td>118 HP</td>
+    <td>170 Nm</td>
+    <td>Petrol</td>
+    <td>₹10 Lakh</td>
+    <th>162 km/h</th>
+    <th>1497 cc</th>
+</tr>
+
+<tr>
+    <td>Hyundai Creta</td>
+    <td>21 km/l</td>
+    <td>115 HP</td>
+    <td>144 Nm</td>
+    <td>Diesel</td>
+    <td>₹12 Lakh</td>
+    <th>140 km/h</th>
+    <th>1482 cc</th>
+</tr>
+
+<tr>
+    <td>Maruti Brezza</td>
+    <td>20 km/l</td>
+    <td>103 HP</td>
+    <td>137 Nm</td>
+    <td>Petrol</td>
+    <td>₹9 Lakh</td>
+    <th>131 km/h</th>
+    <th>1464 cc</th>
+</tr>
+
+<tr>
+    <td>Mahindra Thar</td>
+    <td>15 km/l</td>
+    <td>130 HP</td>
+    <td>300 Nm</td>
+    <td>Diesel</td>
+    <td>₹18 Lakh</td>
+    <th>280 km/h</th>
+    <th>1997 cc</th>
+</tr>
+
+<tr>
+    <td>Kia Seltos</td>
+    <td>20 km/l</td>
+    <td>115 HP</td>
+    <td>250 Nm</td>
+    <td>Diesel</td>
+    <td>₹11 Lakh</td>
+    <th>240 km/h</th>
+    <th>1482 cc</th>
+</tr>
+
+<tr>
+    <td>Toyota Fortuner</td>
+    <td>14 km/l</td>
+    <td>204 HP</td>
+    <td>500 Nm</td>
+    <td>Diesel</td>
+    <td>₹36 Lakh</td>
+    <th>460 km/h</th>
+    <th>2694 cc</th>
+</tr>
+
+<tr>
+    <td>Audi A4</td>
+    <td>17 km/l</td>
+    <td>204 HP</td>
+    <td>320 Nm</td>
+    <td>Petrol</td>
+    <td>₹52 Lakh</td>
+    <th>397 km/h</th>
+    <th>1984 cc</th>
+</tr>
+
+<tr>
+    <td>BMW 3 Series</td>
+    <td>16 km/l</td>
+    <td>258 HP</td>
+    <td>400 Nm</td>
+    <td>Petrol</td>
+    <td>₹74 Lakh</td>
+    <th>367 km/h</th>
+    <th>2998 cc</th>
+</tr>
+
+<tr>
+    <td>Mercedes-Benz C-Class</td>
+    <td>16 km/l</td>
+    <td>204 HP</td>
+    <td>300 Nm</td>
+    <td>Petrol</td>
+    <td>₹60 Lakh</td>
+    <th>281 km/h</th>
+    <th>1999 cc</th>
+</tr>
+
+<tr>
+    <td>Jaguar F-Pace</td>
+    <td>14 km/l</td>
+    <td>250 HP</td>
+    <td>365 Nm</td>
+    <td>Petrol</td>
+    <td>₹78 Lakh</td>
+    <th>337 km/h</th>
+    <th>1997 cc</th>
+</tr>
+
+<tr>
+    <td>Porsche Cayenne</td>
+    <td>11 km/l</td>
+    <td>353 HP</td>
+    <td>500 Nm</td>
+    <td>Petrol</td>
+    <td>₹1.42 Crore</td>
+    <th>476 km/h</th>
+    <th>3996 cc</th>
+</tr>
+
+<tr>
+    <td>Bugatti Chiron</td>
+    <td>5 km/l</td>
+    <td>1500 HP</td>
+    <td>1600 Nm</td>
+    <td>Petrol</td>
+    <td>₹28 Crore</td>
+    <th>1585 km/h</th>
+    <th>7993 cc</th>
+</tr>
+
+</table>
+<script src="script.js"></script>
+</body>
+</html>

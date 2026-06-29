@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Cars</title>
+    <script>
+if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.classList.add("dark-mode");
+}
+</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+    <div class="spinner"></div>
+    <h2>Loading...</h2>
+</div>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="index.html">All Cars</a>
+    <a href="suv.html">SUV Cars</a>
+    <a href="luxury.html" class="active">Luxury Cars</a>
+    <a href="compare.html">Compare Cars</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About Us</a>
+
+</nav>
+<button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+<h1>Luxury Cars</h1>
+
+<div class="container">
+
+    <div class="car-card">
+        <img src="audi a4.png" alt="Audi A4">
+        <h2>Audi A4</h2>
+        <p><strong>Mileage:</strong> 17 km/l</p>
+        <p><strong>Power:</strong> 204 HP</p>
+        <p><strong>Torque:</strong> 320 Nm</p>
+        <p><strong>Fuel:</strong> Petrol</p>
+        <p><strong>Price:</strong> ₹52 Lakh</p>
+        <p><strong>top speed:</strong>397 km/h</p>
+        <p><strong>engine:</strong>1984cc</p>
+    </div>
+
+    <div class="car-card">
+        <img src="bmw3.png" alt="BMW3">
+        <h2>BMW 3 Series</h2>
+        <p><strong>Mileage:</strong> 16 km/l</p>
+        <p><strong>Power:</strong> 258 HP</p>
+        <p><strong>Torque:</strong> 400 Nm</p>
+        <p><strong>Fuel:</strong> Petrol</p>
+        <p><strong>Price:</strong> ₹74 Lakh</p>
+        <p><strong>top speed:</strong>376 km/h</p>
+        <p><strong>engine:</strong>2998cc</p>
+    </div>
+
+    <div class="car-card">
+        <img src="mercedes benz.png" alt="Mercedes Benz ">
+        <h2>Mercedes-Benz C-Class</h2>
+        <p><strong>Mileage:</strong> 16 km/l</p>
+        <p><strong>Power:</strong> 204 HP</p>
+        <p><strong>Torque:</strong> 300 Nm</p>
+        <p><strong>Fuel:</strong> Petrol</p>
+        <p><strong>Price:</strong> ₹60 Lakh</p>
+        <p><strong>top speed:</strong>281 km/h</p>
+        <p><strong>engine:</strong>1999cc</p>
+    </div>
+
+    <div class="car-card">
+        <img src="jaguar f.png" alt="Jaguar F">
+        <h2>Jaguar F-Pace</h2>
+        <p><strong>Mileage:</strong> 14 km/l</p>
+        <p><strong>Power:</strong> 250 HP</p>
+        <p><strong>Torque:</strong> 365 Nm</p>
+        <p><strong>Fuel:</strong> Petrol</p>
+        <p><strong>Price:</strong> ₹78 Lakh</p>
+        <p><strong>top speed:</strong>337 km/h</p>
+        <p><strong>engine:</strong>1997cc</p>
+    </div>
+
+    <div class="car-card">
+        <img src="porsche.png" alt="Porsche ">
+        <h2>Porsche Cayenne</h2>
+        <p><strong>Mileage:</strong> 11 km/l</p>
+        <p><strong>Power:</strong> 353 HP</p>
+        <p><strong>Torque:</strong> 500 Nm</p>
+        <p><strong>Fuel:</strong> Petrol</p>
+        <p><strong>Price:</strong> ₹1.42 Crore</p>
+        <p><strong>top speed:</strong>476 km/h</p>
+        <p><strong>engine:</strong>3996cc</p>
+    </div>
+
+    <div class="car-card">
+        <img src="bugati chiron.png" alt="Bugati Chiron">
+        <h2>Bugatti Chiron</h2>
+        <p><strong>Mileage:</strong> 5 km/l</p>
+        <p><strong>Power:</strong> 1500 HP</p>
+        <p><strong>Torque:</strong> 1600 Nm</p>
+        <p><strong>Fuel:</strong> Petrol</p>
+        <p><strong>Price:</strong> ₹28 Crore</p>
+        <p><strong>top speed:</strong>1585 km/h</p>
+        <p><strong>engine:</strong>7993cc</p>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

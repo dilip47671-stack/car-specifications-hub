@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script>
+if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.classList.add("dark-mode");
+}
+</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+    <div class="spinner"></div>
+    <h2>Loading...</h2>
+</div>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="index.html">All Cars</a>
+    <a href="suv.html">SUV Cars</a>
+    <a href="luxury.html">Luxury Cars</a>
+    <a href="compare.html">Compare Cars</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="about.html">About Us</a>
+</nav>
+
+<button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+<h1 class="page-title">Contact Us</h1>
+
+<div class="car-card">
+    <h2>Send Us a Message</h2>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <label>Message:</label><br>
+        <textarea rows="5" cols="40" placeholder="Enter your message"></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

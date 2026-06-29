@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to Car Specifications Hub</title>
+    <script>
+if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.classList.add("dark-mode");
+}
+</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+    <div class="spinner"></div>
+    <h2>Loading...</h2>
+</div>
+
+</div class="page-header">
+     <h1>all cars</h1>
+  </div>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="index.html"class="active">all cars</a>
+        <a href="suv.html">suv cars</a>
+        <a href="luxury.html">luxury cars</a>
+        <a href="compare.html">Compare Cars</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About Us</a>
+    </nav>
+     <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search Car Model..." onkeyup="searchCars()">
+    </div>
+
+    <div class="container">
+        
+    <div class="car-card">
+            <img src="nexon.png" alt="Tata Nexon">
+            <h2>Tata Nexon</h2>
+            <p><strong>Mileage:</strong> 24 km/l</p>
+            <p><strong>Power:</strong> 118 HP</p>
+            <p><strong>Torque:</strong> 170 Nm</p>
+            <p><strong>Fuel:</strong> Petrol</p>
+            <p><strong>price:</strong>₹15.281lakh</p>
+            <p><strong>top speed:</strong>162 km/h</p>
+            <p><strong>engine:</strong>1497cc</p>
+        </div>
+
+        <div class="car-card">
+            <img src="hundai crita.png" alt="Hyundai Creta">
+            <h2>Hyundai Creta</h2>
+            <p><strong>Mileage:</strong> 21 km/l</p>
+            <p><strong>Power:</strong> 115 HP</p>
+            <p><strong>Torque:</strong> 144 Nm</p>
+            <p><strong>Fuel:</strong> Diesel</p>
+            <p><strong>price:</strong>₹10.91lakh</p>
+            <p><strong>top speed:</strong>140km/h</p>
+            <p><strong>engine:</strong>1482cc</p>
+        </div>
+
+        <div class="car-card">
+            <img src="maruthi brizza.png" alt="Maruti Brezza">
+            <h2>Maruti Brezza</h2>
+            <p><strong>Mileage:</strong> 20 km/l</p>
+            <p><strong>Power:</strong> 103 HP</p>
+            <p><strong>Torque:</strong> 137 Nm</p>
+            <p><strong>Fuel:</strong> Petrol</p>
+            <p><strong>price:</strong>₹16.48lakh</p>
+            <p><strong>top speed:</strong>131 km/h</p>
+            <p><strong>engine:</strong>1464cc</p>
+        </div>
+
+        <div class="car-card">
+            <img src="mahindra thar.png" alt="mahindra thar">
+            <h2>Mahindra thar</h2>
+            <p><strong>Mileage:</strong> 16 km/l</p>
+            <p><strong>Power:</strong> 140 HP</p>
+            <p><strong>Torque:</strong> 300Nm</p>
+            <p><strong>Fuel:</strong> diesel</p>
+            <p><strong>price:</strong>₹22.95lakh</p>
+            <p><strong>top speed:</strong>280km/h</p>
+            <p><strong>engine:</strong>1997cc</p>
+        </div>
+
+        <div class="car-card">
+    <img src="Kia seltos.png" alt="Kia Seltos">
+    <h2>Kia Seltos</h2>
+    <p><strong>Mileage:</strong> 20 km/l</p>
+    <p><strong>Power:</strong> 115 HP</p>
+    <p><strong>Torque:</strong> 250 Nm</p>
+    <p><strong>Fuel:</strong> Diesel</p>
+    <p><strong>price:</strong>₹24.98lakh</p>
+    <p><strong>top speed:</strong>240km/h</p>
+    <p><strong>engine:</strong>1482cc</p>
+</div>
+
+
+<div class="car-card">
+    <img src="toyota fortunar.png" alt="Toyota Fortunar">
+    <h2>Toyota Fortuner</h2>
+    <p><strong>Mileage:</strong> 14 km/l</p>
+    <p><strong>Power:</strong> 204 HP</p>
+    <p><strong>Torque:</strong> 500 Nm</p>
+    <p><strong>Fuel:</strong> Diesel</p>
+    <p><strong>price:</strong>₹51.8lakh</p>
+    <p><strong>top speed:</strong>460 km/h</p>
+    <p><strong>engine:</strong>2694cc</p>
+</div>
+
+<div class="car-card">
+    <img src="audi a4.png" alt="Audi a4">
+    <h2>Audi A4</h2>
+    <p><strong>Mileage:</strong> 17 km/l</p>
+    <p><strong>Power:</strong> 204 HP</p>
+    <p><strong>Torque:</strong> 320 Nm</p>
+    <p><strong>Fuel:</strong> Petrol</p>
+    <p><strong>price:</strong>₹64.75.88lakh</p>
+    <p><strong>top speed:</strong>397 km/h</p>
+    <p><strong>engine:</strong>1984cc</p>
+</div>
+
+<div class="car-card">
+    <img src="bmw3.png" alt="BMW 3 Series">
+    <h2>BMW 3 Series</h2>
+    <p><strong>Mileage:</strong> 16 km/l</p>
+    <p><strong>Power:</strong> 258 HP</p>
+    <p><strong>Torque:</strong> 400 Nm</p>
+    <p><strong>Fuel:</strong> Petrol</p>
+    <p><strong>price:</strong>₹83.96lakh</p>
+    <p><strong>top speed:</strong>376 km/h</p>
+    <p><strong>engine:</strong>2998cc</p>
+</div>
+
+<div class="car-card">
+    <img src="mercedes benz.png" alt="Mercedes-Benz C-Class">
+    <h2>Mercedes-Benz C-Class</h2>
+    <p><strong>Mileage:</strong> 16 km/l</p>
+    <p><strong>Power:</strong> 204 HP</p>
+    <p><strong>Torque:</strong> 300 Nm</p>
+    <p><strong>Fuel:</strong> Petrol</p>
+    <p><strong>price:</strong>₹82.20lakh</p>
+    <p><strong>top speed:</strong>281 km/h</p>
+    <p><strong>engine:</strong>1999cc</p>
+</div>
+
+<div class="car-card">
+    <img src="jaguar f.png" alt="Jaguar F-Pace">
+    <h2>Jaguar F-Pace</h2>
+    <p><strong>Mileage:</strong> 14 km/l</p>
+    <p><strong>Power:</strong> 250 HP</p>
+    <p><strong>Torque:</strong> 365 Nm</p>
+    <p><strong>Fuel:</strong> Petrol</p>
+    <p><strong>price:</strong>90lakh</p>
+    <p><strong>top speed:</strong>337 km/h</p>
+    <p><strong>engine:</strong>1997cc</p>
+</div>
+
+<div class="car-card">
+    <img src="porsche.png" alt="Porsche Cayenne">
+    <h2>Porsche Cayenne</h2>
+    <p><strong>Mileage:</strong> 11 km/l</p>
+    <p><strong>Power:</strong> 353 HP</p>
+    <p><strong>Torque:</strong> 500 Nm</p>
+    <p><strong>Fuel:</strong> Petrol</p>
+    <p><strong>price:</strong>₹1.56crore</p>
+    <p><strong>top speed:</strong>476 km/h</p>
+    <p><strong>engine:</strong>3996cc</p>
+</div>
+
+<<div class="car-card">
+    <img src="bugati chiron.png" alt="Bugatti Chiron">
+    <h2>Bugatti Chiron</h2>
+    <p><strong>Mileage:</strong> 5 km/l</p>
+    <p><strong>Power:</strong> 1500 HP</p>
+    <p><strong>Torque:</strong> 1600 Nm</p>
+    <p><strong>Fuel:</strong> Petrol</p>
+    <p><strong>price:</strong>₹45crore</p>
+    <p><strong>top speed:</strong>1585 km/h</p>
+    <p><strong>engine:</strong>7993cc</p>
+</div>
+     
+</div>
+    </body>
+    </html>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
