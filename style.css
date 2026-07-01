@@ -316,7 +316,7 @@ main {
 }
 
 body {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .about-home {
@@ -327,12 +327,12 @@ body {
 }
 
 .about-home h2 {
-    font-size: 32px;
+    font-size: 29px;
     margin-bottom: 15px;
 }
 
 .about-home p {
-    font-size: 18px;
+    font-size: 27px;
     line-height: 1.8;
 }
 
